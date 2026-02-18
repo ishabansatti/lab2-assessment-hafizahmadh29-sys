@@ -25,6 +25,7 @@ char getCharValue() {
 
 int convertFloatToInt(float value) {
     // convert value to int.
+    return static_cast<int(value)>;
     return value;
 }
 
